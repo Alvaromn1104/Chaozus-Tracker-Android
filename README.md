@@ -58,7 +58,14 @@ Si deseas contribuir, por favor haz un fork del repositorio y envía un pull req
 
 ---
 
-## 🔗 Figma
+## 🔗 Figma 
 
-### Link del diseño de la aplicacion
-- (https://www.figma.com/design/WJo7hO86fOmL7fkUR28laN/Proyecto-DB?node-id=0-1&p=f&t=Nyt7jUjtKodTR6yp-0)
+### Link 
+- [Figma](https://www.figma.com/design/WJo7hO86fOmL7fkUR28laN/Proyecto-DB?node-id=0-1&p=f&t=Nyt7jUjtKodTR6yp-0)
+
+---
+
+##   Modelo entidad-Relación
+
+### Link
+- [Entidad-Relación]()
