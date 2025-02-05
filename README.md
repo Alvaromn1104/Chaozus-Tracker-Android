@@ -1,14 +1,14 @@
 # Chaozus-Tracker-Android
 ## 📌 Descripción
-Chaozus Tracker es una aplicación diseñada para jugadores de *dragon Ball: Sparking! Zero.* Ofrece un conjunto completo de características, incluyendo estadísticas de campeones, noticias sobre el juego, *what if?* de las diferentes historias y la posibilidad de buscar partidas en línea
+Chaozus Tracker es una aplicación diseñada para jugadores de *dragon Ball: Sparking! Zero.* Ofrece un conjunto completo de características, incluyendo estadísticas de campeones, noticias sobre el juego, *what if?* de las diferentes historias y la opción de ingresar tu ID para que otros usuarios puedan encontrarte y agregarte.
 
 ---
 
 ## 🎯 Persona (Público Objetivo)
 La aplicación está dirigida a:
--**Fans de Dragon Ball** que quieraqn explorar contenido exclusivo del juego. 
+-**Fans de Dragon Ball** que quieran explorar contenido exclusivo del juego. 
 -**jugadores competitivos** que busquen estadìticas detalladas y estrategias.
--**Personas interesadas en jugar en línea** y encontar partidas fácilmente.
+-**Personas interesadas en jugar en conocer a aun más el juego** 
 
 ---
 
@@ -48,13 +48,7 @@ Sigue una estètica vibrante y moderna inspirada en la cultura del creador del a
 ## 🚀 Tecnologías Utilizadas
 - **Lenguaje:** Java
 - **Framework:** Android con Material 3
-- **API:** 
-
----
-
-## 📸 Capturas de Pantalla
-
-
+- **API:** [DragonBallApi] (https://web.dragonball-api.com/documentation)
 
 ---
 
@@ -64,6 +58,7 @@ Si deseas contribuir, por favor haz un fork del repositorio y envía un pull req
 
 ---
 
-## 📩 Contacto
+## 🔗 Figma
 
-- **📧 Email:** 
+### Link del diseño de la aplicacion
+- (https://www.figma.com/design/WJo7hO86fOmL7fkUR28laN/Proyecto-DB?node-id=0-1&p=f&t=Nyt7jUjtKodTR6yp-0)
