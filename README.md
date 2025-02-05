@@ -6,7 +6,7 @@ Chaozus Tracker es una aplicación diseñada para jugadores de *dragon Ball: Spa
 
 ## 🎯 Persona (Público Objetivo)
 La aplicación está dirigida a:
--**Fans de Dragon Ball** que quieran explorar contenido exclusivo del juego. 
+-**Fans de Dragon Ball** que quieran explorar contenido exclusivo del juego.
 -**jugadores competitivos** que busquen estadìticas detalladas.
 -**Personas interesadas en jugar y conocer a aun más el juego** 
 
