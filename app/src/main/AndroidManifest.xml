@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
@@ -20,13 +22,81 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name=".Register"
             android:exported="false"/>
+
         <activity
             android:name=".Login"
-            android:exported="true">
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".MyAccount"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Controles"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Dlcs"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Historia"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".HistoriaGoku"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".HistoriaVegeta"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".HistoriaGohan"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".HistoriaGokuBlack"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".News"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Personajes"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".Platino"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".News1"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".News2"
+            android:exported="false">
+
         </activity>
 
         <activity

@@ -4,13 +4,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -32,6 +35,19 @@ public class Register extends AppCompatActivity {
         TextInputEditText editRepeatPasswordTIL = findViewById(R.id.edit_repeatPassword);
         Button btnCreate = findViewById(R.id.btnCreate);
         TextView DBreturn = findViewById(R.id.DBreturn);
+        CardView cardViewRegister = findViewById(R.id.cardViewRegister);
+
+        cardViewRegister.setAlpha(0f);
+        cardViewRegister.setTranslationY(100f);
+
+        new Handler().postDelayed(()->{
+            cardViewRegister.animate()
+                    .alpha(1f)
+                    .translationY(0f)
+                    .setDuration(1000)
+                    .setInterpolator(new AccelerateDecelerateInterpolator())
+                    .start();
+        }, 1500);
 
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override

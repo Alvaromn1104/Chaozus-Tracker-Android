@@ -2,6 +2,225 @@
     <string name="app_name">ProyectoDB</string>
     <string name="login_title">INICIAR SESIÓN</string>
     <string name="crear_cuenta"><u>Crear cuenta</u></string>
+
+
+    <!-- Strings de titulos de whatIf  -->
+
+    <string-array name="platino_name">
+        <item>Sparking!</item>
+        <item>El sabor de la victoria</item>
+        <item>Racha triunfal</item>
+        <item>Enfrentamiento con nuevos rivales</item>
+        <item>Rivales conectados</item>
+        <item>Preparando el combate</item>
+        <item>Confrontación predestinada</item>
+        <item>Un talento para luchar</item>
+        <item>Campeón del Torneo Mundial</item>
+        <item>Campeón de los Juegos de Célula</item>
+        <item>Maestro del Torneo del más allá</item>
+        <item>Dominador del Torneo de Destructores</item>
+        <item>Líder del Torneo de Poder</item>
+        <item>¡Nunca es suficiente!</item>
+        <item>Codo con codo</item>
+        <item>Superando los límites</item>
+        <item>El futuro cambiante</item>
+        <item>Métete en tus asuntos</item>
+        <item>Vínculo parental</item>
+        <item>Primer lugar</item>
+        <item>¡Ya no soy un crío!</item>
+        <item>El guerrero más fuerte</item>
+        <item>Perdona por hacerte esperar...</item>
+        <item>La enseñanza de un mentor</item>
+        <item>Dios o mortal, ¡no perderé!</item>
+        <item>Esperanza resplandeciente</item>
+        <item>Orgullo heredado</item>
+        <item>Embarcando hacia el mañana</item>
+        <item>El cruel emperador</item>
+        <item>El ejército de Freezer se une al combate</item>
+        <item>Plan "Cero mortales"</item>
+        <item>Prueba de la justicia</item>
+        <item>La fuerza es justicia</item>
+        <item>Fuerza verdadera</item>
+        <item>Omnisciente</item>
+        <item>Combate de ensueño</item>
+        <item>¡Manifiéstate, Shenron!</item>
+        <item>¡Manifiéstate, Porunga!</item>
+        <item>¡Manifiéstate, Súper Shenron!</item>
+        <item>Guerrero novato</item>
+        <item>Guerrero experto</item>
+        <item>Zenionario</item>
+        <item>Derrochador</item>
+        <item>Algo es algo</item>
+        <item>Preparado para todo</item>
+        <item>Nuevos aspirantes</item>
+        <item>Reunión de rivales</item>
+        <item>Presumiendo</item>
+        <item>Coleccionista de títulos novato</item>
+        <item>Coleccionista de títulos</item>
+    </string-array>
+
+    <!-- Fin de los strings de titulos de WhatIf -->
+
+
+    <!-- Strings de whatIf  -->
+    <string-array name="platino_description">
+        <item>Has obtenido todos los trofeos.</item>
+        <item>Has ganado 10 combates.</item>
+        <item>Has ganado 100 combates.</item>
+        <item>Has luchado en 3 combates en línea.</item>
+        <item>Has luchado en 100 combates en línea.</item>
+        <item>Has personalizado a un personaje.</item>
+        <item>Has visto 20 escenas de diálogos especiales.</item>
+        <item>Has visto 20 remates especiales.</item>
+        <item>Has conseguido la victoria en el Torneo Mundial.</item>
+        <item>Has conseguido la victoria en los Juegos de Célula.</item>
+        <item>Has conseguido la victoria en el Torneo del más allá.</item>
+        <item>Has conseguido la victoria en el Torneo de Destructores.</item>
+        <item>Has conseguido la victoria en el Torneo de Poder.</item>
+        <item>Has completado la saga de Son Goku.</item>
+        <item>Has completado el capítulo "Codo con codo" de la saga de Son Goku.</item>
+        <item>Has completado el capítulo "Superando los límites" de la saga de Son Goku.</item>
+        <item>Has completado el capítulo "El futuro cambiante" de la saga de Son Goku.</item>
+        <item>Has completado la saga de Vegeta.</item>
+        <item>Has completado el capítulo "Vínculo parental" de la saga de Vegeta.</item>
+        <item>Has completado el capítulo "Primer lugar" de la saga de Vegeta.</item>
+        <item>Has completado la saga de Son Gohan.</item>
+        <item>Has completado el capítulo "El guerrero más fuerte" de la saga de Son Gohan.</item>
+        <item>Has completado la saga de Piccolo.</item>
+        <item>Has completado el capítulo "La enseñanza de un mentor" de la saga de Piccolo.</item>
+        <item>Has completado la saga de Trunks del futuro.</item>
+        <item>Has completado el capítulo "Esperanza resplandeciente" de la saga de Trunks del futuro.</item>
+        <item>Has completado el capítulo "Orgullo heredado" de la saga de Trunks del futuro.</item>
+        <item>Has completado el capítulo "Embarcando hacia el mañana" de la saga de Trunks del futuro.</item>
+        <item>Has completado la saga de Freezer.</item>
+        <item>Has completado el capítulo "El ejército de Freezer se une al combate" de la saga de Freezer.</item>
+        <item>Has completado la saga de Goku Black.</item>
+        <item>Has completado el capítulo "Prueba de la justicia" de la saga de Goku Black.</item>
+        <item>Has completado la saga de Jiren.</item>
+        <item>Has completado el capítulo "Fuerza verdadera" de la saga de Jiren.</item>
+        <item>Has completado 21 sagas en Combate de episodio.</item>
+        <item>Has completado 30 combates adicionales.</item>
+        <item>Has invocado a Shenron y se te ha concedido un deseo.</item>
+        <item>Has invocado a Porunga y se te ha concedido un deseo.</item>
+        <item>Has invocado a Súper Shenron y se te ha concedido un deseo.</item>
+        <item>Has alcanzado el nivel de jugador 5.</item>
+        <item>Has alcanzado el nivel de jugador 20.</item>
+        <item>Has ganado un total de 1 000 000 de zeni.</item>
+        <item>Has gastado un total de 1 000 000 de zeni.</item>
+        <item>Has conseguido 10 objetos de destreza diferentes.</item>
+        <item>Has conseguido 50 objetos de destreza diferentes.</item>
+        <item>Has desbloqueado 10 personajes (sin contar personajes de complementos).</item>
+        <item>Has desbloqueado 40 personajes (sin contar personajes de complementos).</item>
+        <item>Has editado por completo una tarjeta de jugador.</item>
+        <item>Has ganado un título.</item>
+        <item>Has ganado 100 títulos.</item>
+    </string-array>
+
+    <!-- Fin de los strings de WhatIf -->
+
+
+    <!-- Strings de titulos de Controles  -->
+
+    <string name="Whatifcont1">El primer episodio Sparking que puedes desbloquear en la historia de Goku es el que recibe el título de "codo con codo", al que se puede acceder durante las fases del arco de los Saiyans, en el capitulo 1.</string>
+    <string name="Whatifcont2">El segundo episodio Sparking que esta disponible para desbloquear en la historia de Goku es el que recibe el titulo de "Superando los límites" y, como el primero, puedes tener acceso a él durante las fases del arco de los Saiyans, en el capitulo 1.</string>
+    <string name="Whatifcont3">El tercer y último episodio Sparking que puedes desbloquear en la historia de Goku es el que recibe el titulo de "El futuro cambiante", al que se puede acceder durante las fases del arco de los androides y celola, en el capitulo 3.</string>
+    <string name="Whatifcont4">El primer episodio Sparking que puedes desbloquear en la historia de Vegeta es el que recibe el titulo de "Vinculo paternal", al que se puede acceder durante las fases del arco de los androides y célula, en el capitulo 2.</string>
+    <string name="Whatifcont5">El segundo y ultimo episodio Sparking que puedes desbloquear en la historia de Vegeta es el que recibe el titulo de "Primer lugar", al que se puede acceder durante las fases del Arco del Monstruo Bu, en el capitulo 3.</string>
+    <string name="Whatifcont6">El primer y unico episodio Sparking que puedes desbloquear en la historia de Son Gohan es el que recibe el titulo de "El guerrero mas fuerte", al que se puede acceder durante las fases del arco de Bills, el Dios de la Destruccion/Resureccion de Freezer, en el capitulo 5.</string>
+    <string name="Whatifcont7">El primer y unico episodio Sparking que puedes desbloquear en la historia de Goku Black es el que recibe el titulo de "Prueba de la justicia", al que se puede acceder durante las fases del arco de Trunks del futuro, en el capitulo 6.</string>
+    <string name="Whatifcont8"></string>
+    <string name="Whatifcont9"></string>
+    <string name="Whatifcont10"></string>
+
+    <!-- Fin de los strings de titulos de Controles -->
+
+
+    <!-- Strings de titulos de Controles  -->
+
+    <string name="Controles">DRAGON BALL: Sparking! ZERO: Combos y Funciones</string>
+    <string name="ControlesM1">Sprint con pasos/corto</string>
+    <string name="ControlesM2">Acometida Dragón</string>
+    <string name="ControlesM3">Acometida de Explosión Z</string>
+    <string name="ControlesM4">Ascenso rápido</string>
+    <string name="ControlesM5">Descenso rápido</string>
+    <string name="ControlesOf1">Acciones de cadena frenética</string>
+    <string name="ControlesO1">Ataques de golpe</string>
+    <string name="ControlesOf2">Golpe Levantador/Gran Tajo</string>
+    <string name="ControlesO2">Golpe Levantador</string>
+
+    <!-- Fin de los strings de titulos de Controles -->
+
+
+    <!-- Strings de contenido de DLC´s  -->
+
+    <string name="contentDlc1">El pase de temporada de DRAGON BALL: Sparking! ZERO incluye:</string>
+    <string name="contentDlc1_1"> 3 paquetes de contenido descargable y, como bonificación, podrás invocar a Shenron para obtener objetos como trajes o zeni y 3 días de acceso anticipado a los 3 paquetes de contenido descargable.</string>
+
+    <!-- Fin de los contenido de DLC´s -->
+
+
+    <!-- Strings de titulos de DLC´s  -->
+
+    <string name="Dlc">DRAGON BALL: SPARKING! ZERO HERO OF JUSTICE Pack</string>
+    <string name="Dlc1">DRAGON BALL: SPARKING! ZERO SEASON PASS Pack</string>
+
+    <!-- Fin de los strings de DLC´s -->
+
+
+    <!-- Strings de controles  -->
+
+    <string name="ControlesCont">Antes de empezar a luchar en tus primeros combates en DRAGON BALL: SPARKING ZERO, tendrás que conocer los movimientos de los que dispones. Con nuestra última guía, conoce el sistema de combate y repasa los movimientos de ataque y defensa que hay en el juego.</string>
+    <string name="ControlesM">En juegos de combate 3D en la arena como DRAGON BALL: Sparking! ZERO, es muy importante dominar el movimiento. Hay muchas formas de moverse, no solo por el mapa, sino también alrededor de tu enemigo. ¡Echemos un vistazo a los más importantes!</string>
+    <string name="ControlesM1_1">Pulsa [✖/A] para avanzar o moverte lateralmente. De este modo, tu posición será menos estática y más difícil de predecir cuando te enfrentes a un rival. Si pulsas [✖/A], puedes moverte rápidamente en la dirección a la que apunte el joystick. Si estás cerca de tu rival, ejecutará Sprint con pasos, pero, si estás lejos, ejecutará un Sprint corto, que es útil para esquivar diferentes ataques, como los ataques de ráfaga.</string>
+    <string name="ControlesM2_2">Pulsa [R2/RT] + [✖/A] para correr a gran velocidad en la dirección a la que apunte el joystick. Al activarlo y mientras te mueves, se consume Ki, pero es una forma práctica de desplazarte por mapas grandes. Puedes continuar este movimiento con varios combos frenéticos o un ataque de golpe.</string>
+    <string name="ControlesM3_3">Si pulsas [R2/RT] + [✖/A] + [✖/A], podrás realizar una Acometida de Explosión Z. Es un movimiento muy veloz que te permite colocarte detrás de tu rival durante la Acometida Dragón. Consume más Ki que la Acometida Dragón, pero también dificulta que tu oponente se proteja.</string>
+    <string name="ControlesM4_4">Pulsa [R2/RT] + [L1/LB] para subir rápidamente mientras emites tu Aura de Ki. En este movimiento, se consumirá tu indicador de Ki</string>
+    <string name="ControlesM5_5">Pulsa [R2/RT] + [L2/LT] para bajar rápidamente mientras emites tu Aura de Ki. Este movimiento también consumirá tu indicador de Ki.</string>
+
+    <!-- Fin de los strings de controles -->
+
+
+    <!-- Strings de titulos de noticias  -->
+
+    <string name="newsDlc">Actualización de DRAGON BALL: Sparking! ZERO: cambios y ajustes en las funciones y los sistemas de combate</string>
+    <string name="newsDlc1">DRAGON BALL: Sparking! ZERO vende más de 5 millones de unidades en todo el mundo</string>
+
+    <!-- Fin de los strings de titulos de noticias -->
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings de noticias "5-Millones" -->
+
+    <string name="newsDlc1intro">La esperada secuela de la serie BUDOKAI TENKAICHI se convierte en el juego de consola de DRAGON BALL más vendido en menos tiempo</string>
+    <string name="newsDlc1conten1">Bandai Namco Entertainment Europe S.A.S. ha anunciado hoy que DRAGON BALL: Sparking! ZERO, la primera secuela en más de 15 años de la legendaria serie DRAGON BALL Z: BUDOKAI TENKAICHI  ha superado las 5 millones de unidades vendidas en todo el mundo desde su lanzamiento. Tras debutar en octubre con gran éxito entre la crítica, el título se ha convertido en el juego de consola de DRAGON BALL con ventas más rápidas hasta la fecha. DRAGON BALL: Sparking! ZERO ya está disponible en PlayStation 5, Xbox Series X|S, y PC a través de Steam.</string>
+    <string name="newsDlc1conten2">Recientemente, el juego ha recibido el DLC "Hero of Justice", que añade 11 nuevos luchadores al extenso plantel de 182 personajes, entre ellos Gohan Beast, Cell Max, Gamma 1 y Gamma 2. Estas características, junto con contenido descargable frecuente y los torneos oficiales, han convertido a DRAGON BALL: Sparking! ZERO en uno de los títulos más aclamados de la franquicia de anime. </string>
+
+    <!-- Fin de los strings de noticias "5-Millones" -->
+
+
+    <!-- Strings de noticias "Nuevo Dlc" -->
+
+    <string name="newsconten">Gracias por jugar a DRAGON BALL: Sparking! ZERO. El 20 de enero a las 23:00 (CET)/14:00 (PST), implementaremos una actualización para realizar los siguientes ajustes en estas plataformas: PlayStation®5, Xbox Series X|S y Steam®. El mantenimiento en todas las plataformas durará alrededor de 1 hora. Para disfrutar más de la experiencia de juego en DRAGON BALL: Sparking! ZERO, instala el archivo de actualización más reciente. Versión: 2008.007.003.005.004</string>
+    <string name="newssub1">Ajustes en el modo de juego:</string>
+    <string name="newsconten1">Duelo contra el guerrero legendario (nuevo): este modo, en el que te enfrentas a un personaje extremadamente fuerte, se ha añadido por tiempo limitado. (No puedes seleccionar esto modo de juego fuera del periodo).</string>
+    <string name="newssub2">Ajustes en funcionalidad:</string>
+    <string name="newsconten2">Combate de episodio: ahora se puede cambiar la dificultad incluso si estás utilizando un Orbe Dragón.</string>
+    <string name="newsconten3">Combate personalizado: se han añadido más situaciones, efectos y texto que podrás configurar.</string>
+    <string name="newsconten4">Partida de jugador:</string>
+    <string name="newsconten4_1">- Se ha modificado la partida rápida para que no tengas que entrar en una sala y te emparejen instantáneamente con un rival.</string>
+    <string name="newsconten4_2">- También hemos añadido "Búsqueda de sala rápida" a la partida rápida.</string>
+    <string name="newsconten5">Partida igualada: se ha añadido un tiempo de espera antes del comienzo de la partida como penalización según el número de veces que te hayas desconectado.</string>
+    <string name="newsconten6">Configuración del combate: ahora puedes ver la explicación de los controles al seleccionar un personaje.</string>
+    <string name="newsconten7">Entrenamiento: se ha añadido la opción "En guardia tras los ataques" cuando se juegue contra una CPU.</string>
+    <string name="newssub3">Ajustes en el sistema de combate:</string>
+    <string name="newsconten8">Ataques de carga (ataque de golpe o cadena frenética): ya no retrocederás mientras cargues al recibir un ataque frenético o una Ráfaga de Ki frenética de un rival en el modo Sparking!.</string>
+    <string name="newsconten9">Ataque frenético: ahora es más difícil ejecutar por error un ataque de golpe durante los ataques frenéticos.</string>
+    <string name="newsconten10">Gran Tajo: golpear a un rival que está cayendo después de un Gran Tajo con otro Gran Tajo lo hará volar por los aires dando vueltas.</string>
+    <string name="newsconten11">Ráfaga de Ki frenética: ya no tendrás que ejecutar una evasión veloz cuando te golpeen.</string>
+    <string name="newscontenfin">¡No te pierdas otras novedades y disfruta de la experiencia de juego mejorada en DRAGON BALL: Sparking! ZERO!</string>
+
+    <!-- Fin de los strings de noticias "Nuevo Dlc" -->
+
 </resources>

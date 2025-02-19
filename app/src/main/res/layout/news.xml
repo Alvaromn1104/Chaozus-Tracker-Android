@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/fondoprincipal3"
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.TextMain">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+            <ImageView
+                android:id="@+id/perfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/image0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutNews"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+            >
+
+            <TextView
+                android:id="@+id/tittleNews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NOTICIAS"
+                android:textSize="40sp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewNewsDlcs"
+            android:layout_width="350dp"
+            android:layout_height="340dp"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutNews">
+
+            <LinearLayout
+                android:id="@+id/webViewlinear"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="300dp"
+                android:layout_height="170dp">
+
+                <WebView
+                    android:id="@+id/webView"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutnews1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/newsDlc"
+                    android:textSize="17sp">
+                </TextView>
+
+                <Button
+                    android:id="@+id/buttonSaberMas"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="190dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/buttonNews"
+                    android:text="Saber más"
+                    android:textColor="@color/black"
+                    app:strokeColor="@android:color/black"
+                    app:cornerRadius="0dp">
+
+                </Button>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewNewsDlcs2"
+            android:layout_width="350dp"
+            android:layout_height="340dp"
+            android:layout_margin="15dp"
+            android:layout_marginTop="19dp"
+            android:orientation="vertical"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+            <LinearLayout
+                android:id="@+id/webViewlinear2"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="300dp"
+                android:layout_height="170dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/millo5">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutnews2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/newsDlc1"
+                    android:textColor="@color/black"
+                    android:textSize="17sp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/buttonSaberMas2"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="190dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/buttonNews"
+                    android:text="Saber más"
+                    android:textColor="@color/black"
+                    app:cornerRadius="0dp">
+
+                </Button>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
