@@ -1,9 +1,11 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.news;
 
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.alexgl00.proyectodb.R;
 
 public class News2 extends AppCompatActivity {
 

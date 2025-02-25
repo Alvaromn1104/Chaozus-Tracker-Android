@@ -9,6 +9,10 @@
 
 
     <style name="Theme.TextMain" parent="Base.Theme.ProyectoDB" >
-        <item name="android:fontFamily">@font/electrolize</item>
+        <item name="android:fontFamily">@font/paprikaregular</item>
+    </style>
+
+    <style name="Theme.Text" parent="Base.Theme.ProyectoDB" >
+        <item name="android:fontFamily">@font/boogalooregular</item>
     </style>
 </resources>

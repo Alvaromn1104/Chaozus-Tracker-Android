@@ -50,32 +50,32 @@
         </activity>
 
         <activity
-            android:name=".Historia"
+            android:name=".history.Historia"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".HistoriaGoku"
+            android:name=".history.HistoriaGoku"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".HistoriaVegeta"
+            android:name=".history.HistoriaVegeta"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".HistoriaGohan"
+            android:name=".history.HistoriaGohan"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".HistoriaGokuBlack"
+            android:name=".history.HistoriaGokuBlack"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".News"
+            android:name=".news.News"
             android:exported="false">
         </activity>
 
@@ -83,18 +83,22 @@
             android:name=".Personajes"
             android:exported="false">
         </activity>
-
         <activity
-            android:name=".Platino"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".News1"
+            android:name=".character.CharacterDetailActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".News2"
+            android:name=".trofeo.Platino"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".news.News1"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".news.News2"
             android:exported="false">
 
         </activity>

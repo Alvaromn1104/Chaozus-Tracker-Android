@@ -1,4 +1,4 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.trofeo;
 
 public class Platino_item {
     public String platinoName;

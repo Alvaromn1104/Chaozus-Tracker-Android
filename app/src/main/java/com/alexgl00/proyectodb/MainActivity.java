@@ -13,6 +13,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.alexgl00.proyectodb.history.Historia;
+import com.alexgl00.proyectodb.news.News;
+import com.alexgl00.proyectodb.trofeo.Platino;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

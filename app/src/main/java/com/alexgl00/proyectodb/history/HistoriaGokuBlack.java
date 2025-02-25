@@ -1,14 +1,16 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.history;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class HistoriaVegeta extends AppCompatActivity {
+import com.alexgl00.proyectodb.R;
+
+public class HistoriaGokuBlack extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.historia_vegeta);
+        setContentView(R.layout.historia_goku_black);
     }
 }

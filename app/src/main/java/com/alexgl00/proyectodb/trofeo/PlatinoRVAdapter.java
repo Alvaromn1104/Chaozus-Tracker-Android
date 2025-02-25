@@ -1,4 +1,4 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.trofeo;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.alexgl00.proyectodb.R;
 
 import java.util.ArrayList;
 

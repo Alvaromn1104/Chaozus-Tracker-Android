@@ -1,11 +1,12 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.trofeo;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.alexgl00.proyectodb.R;
 
 import java.util.ArrayList;
 

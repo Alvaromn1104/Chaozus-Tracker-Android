@@ -1,4 +1,4 @@
-package com.alexgl00.proyectodb;
+package com.alexgl00.proyectodb.news;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.alexgl00.proyectodb.R;
 
 public class News extends AppCompatActivity {
 
