@@ -25,6 +25,10 @@ public class Personajes extends AppCompatActivity {
         ImageView imageViewBills = findViewById(R.id.imageViewBills);
         ImageView imageViewTrunks = findViewById(R.id.imageViewTrunksZ);
         ImageView imageViewGohan = findViewById(R.id.imageViewGohan);
+        ImageView imageViewBroly = findViewById(R.id.imageViewBroly);
+        ImageView imageViewFreezer = findViewById(R.id.imageViewFrezzer);
+        ImageView imageViewMajinBuu = findViewById(R.id.imageViewMajinBuu);
+        ImageView imageViewPiccolo = findViewById(R.id.imageViewPiccolo);
 
 
         imageViewGoku.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +72,36 @@ public class Personajes extends AppCompatActivity {
                 CharacterDetailActivity.openCharacterDetail(Personajes.this, "34");
             }
         });
+
+        imageViewBroly.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CharacterDetailActivity.openCharacterDetail(Personajes.this, "68");
+            }
+        });
+
+        imageViewMajinBuu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CharacterDetailActivity.openCharacterDetail(Personajes.this, "32");
+            }
+        });
+
+        imageViewFreezer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CharacterDetailActivity.openCharacterDetail(Personajes.this, "5");
+            }
+        });
+
+        imageViewPiccolo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CharacterDetailActivity.openCharacterDetail(Personajes.this, "3");
+            }
+        });
+
+
 
 
     }

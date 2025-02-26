@@ -78,6 +78,7 @@
                     <ImageView
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_marginStart="7dp"
                         android:src="@drawable/vegetawhatif">
 
                     </ImageView>
@@ -86,6 +87,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginStart="12dp"
                         android:textSize="30sp"
                         android:text="Vinculo parental">
 
@@ -100,6 +102,8 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="15dp"
                         android:textSize="14sp"
                         android:text="@string/Whatifcont4">
 
@@ -135,6 +139,7 @@
                     <ImageView
                         android:layout_width="90dp"
                         android:layout_height="90dp"
+                        android:layout_marginStart="7dp"
                         android:src="@drawable/vegetawhatif1">
 
                     </ImageView>
@@ -143,6 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginStart="12dp"
                         android:textSize="30sp"
                         android:text="Primer lugar">
 
@@ -158,6 +164,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="14sp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginBottom="15dp"
                         android:text="@string/Whatifcont5">
 
                     </TextView>

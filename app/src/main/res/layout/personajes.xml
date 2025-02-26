@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
     android:background="@drawable/fondoprincipal3"
     tools:context=".MainActivity"
     android:theme="@style/Theme.TextMain">
@@ -124,10 +128,50 @@
 
                 </TextView>
 
+                <ImageView
+                    android:id="@+id/imageViewBroly"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/personaje_brolys">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:text="Broly(SUPER)">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageViewFrezzer"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/personaje_frezzer">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:text="Freezer">
+
+                </TextView>
+
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="200dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 >
@@ -187,6 +231,44 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:text="Trunks(Z)">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageViewMajinBuu"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/personaje_majinbuu"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:text="Majin Buu">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageViewPiccolo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/personaje_piccolo"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:text="Piccolo">
 
                 </TextView>
 

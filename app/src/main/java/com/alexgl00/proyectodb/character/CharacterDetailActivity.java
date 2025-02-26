@@ -113,6 +113,10 @@ public class CharacterDetailActivity extends AppCompatActivity {
         abilitiesMap.put("Trunks", Arrays.asList("Imagen Reflejada", "Potenciación al limite", "Destrozo Final", "Tormenta Ardiente", "Tajo de Espada de Luz"));
         abilitiesMap.put("Whis", Arrays.asList("Barrera", "Hora del aperitivo", "Preludio de la Destrucción", "Destrucción Sinfónica", "Epílogo de la Destrucción"));
         abilitiesMap.put("Bills", Arrays.asList("Sueño", "Veredicto de la Destrucción", "Esfera de Destrucción", "Hakai a la cabeza", "Esfera de Destrucción Súper"));
+        abilitiesMap.put("Broly", Arrays.asList("Carga al máximo", "Perder el control", "Onda de Energía al Máximo", "Choque Gigante", "Impacto Gigante"));
+        abilitiesMap.put("Majin Buu", Arrays.asList("Kaikosen", "Sueño", "Goma Bu Bu", "Súper Kamehameha", "Explosión Furiosa"));
+        abilitiesMap.put("Freezer", Arrays.asList("Psicoquinesia", "Enardecimiento", "Rayo de la muerte", "Castigador Frenético", "Bola Mortal"));
+        abilitiesMap.put("Piccolo", Arrays.asList("Kaikosen", "Al Máximo", "Onda Explosiva de Demonio", "Cañón de Aliento Explosivo", "Cañón de Haz Especial"));
 
         List<String> abilities = abilitiesMap.getOrDefault(characterName, Arrays.asList("Habilidades Desconocidas", "Habilidades Desconocidas", "Habilidades Desconocidas", "Habilidades Desconocidas", "Habilidades Desconocidas"));
 
