@@ -58,7 +58,7 @@
             android:id="@+id/cardViewHistoryGoku"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="30dp"
             android:orientation="vertical"
             app:cardElevation="5dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -80,6 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="SON GOKU"
                     android:textSize="40sp">
 
@@ -93,7 +94,7 @@
             android:id="@+id/cardViewHistoryVegeta"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="30dp"
             android:orientation="vertical"
             app:cardElevation="5dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -115,6 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="VEGETA"
                     android:textSize="40sp">
 
@@ -128,7 +130,7 @@
             android:id="@+id/cardViewHistoryGohan"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="30dp"
             android:orientation="vertical"
             app:cardElevation="5dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -150,6 +152,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="SON GOHAN"
                     android:textSize="40sp">
 
@@ -163,7 +166,7 @@
             android:id="@+id/cardViewHistoryGokuBlack"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="30dp"
             android:orientation="vertical"
             app:cardElevation="5dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -185,16 +188,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="GOKU BLACK!"
+                    android:fontFamily="@font/boogalooregular"
+                    android:text="GOKU BLACK"
                     android:textSize="40sp">
 
                 </TextView>
 
             </LinearLayout>
-
         </androidx.cardview.widget.CardView>
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

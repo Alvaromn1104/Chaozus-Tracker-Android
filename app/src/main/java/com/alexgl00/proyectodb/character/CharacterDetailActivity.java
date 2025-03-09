@@ -2,8 +2,10 @@ package com.alexgl00.proyectodb.character;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -12,13 +14,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.alexgl00.proyectodb.FavoriteCharacter;
+import com.alexgl00.proyectodb.FavoriteCharactersAdapter;
 import com.alexgl00.proyectodb.R;
 import com.bumptech.glide.Glide;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -31,6 +41,10 @@ public class CharacterDetailActivity extends AppCompatActivity {
     private RecyclerView recyclerViewTransformations;
     private TransformationAdapter transformationAdapter;
     private DragonBallApiService apiService;
+    private ImageView favoriteIcon;
+    private SharedPreferences sharedPreferences;
+    private SharedPreferences.Editor editor;
+    private FavoriteCharactersAdapter favoriteCharactersAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,31 +54,73 @@ public class CharacterDetailActivity extends AppCompatActivity {
         characterImage = findViewById(R.id.characterImage);
         recyclerViewTransformations = findViewById(R.id.recyclerViewTransformations);
         characterName = findViewById(R.id.characterName);
+        favoriteIcon = findViewById(R.id.favoriteIcon);
+        apiService = ApiClient.getInstance().create(DragonBallApiService.class);
 
         recyclerViewTransformations.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
-        // Obtener el ID del personaje desde el Intent
-        String characterId = getIntent().getStringExtra("CHARACTER_ID");
+        sharedPreferences = getSharedPreferences("user_favorites", Context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
 
-        // Verificar si el ID es válido
-        if (characterId == null || characterId.isEmpty()) {
-            characterId = "1"; // Cambiar esto por un ID válido de la API
-            Log.w("DEBUG", "ID nulo o vacío, asignando ID por defecto: " + characterId);
+        favoriteIcon.setEnabled(false); // Desactivamos el botón al inicio
+
+
+        // Obtener el ID del personaje de la Intent
+        String characterId = getIntent().getStringExtra("CHARACTER_ID");
+        if (characterId != null) {
+            Log.d("CharacterDetail", "Character ID recibido: " + characterId);
+            loadCharacterDetails(characterId);
+        } else {
+            Log.e("CharacterDetail", "Character ID no encontrado");
+            Toast.makeText(this, "Error: No se encontró el personaje", Toast.LENGTH_SHORT).show();
         }
 
-        Log.d("DEBUG", "ID recibido en Intent: " + characterId);
+        // Configurar el listener para el icono de favorito
+        favoriteIcon.setOnClickListener(v -> handleFavoriteIconClick());
 
-        // Obtener la instancia de Retrofit
-        apiService = ApiClient.getInstance().create(DragonBallApiService.class);
 
-        // Cargar los detalles del personaje
-        loadCharacterDetails(characterId);
     }
+    private void handleFavoriteIconClick() {
+        try {
+            String characterId = getIntent().getStringExtra("CHARACTER_ID");
+            String characterNameText = characterName.getText().toString();
+            String imageName = "personaje_" + characterNameText.toLowerCase(); // Nombre de la imagen en drawable
 
-    public static void openCharacterDetail(Context context, String characterId) {
-        Intent intent = new Intent(context, CharacterDetailActivity.class);
-        intent.putExtra("CHARACTER_ID", characterId);
-        context.startActivity(intent);
+            if (characterId == null || characterNameText.isEmpty()) {
+                Toast.makeText(this, "Error: Datos del personaje no encontrados", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Recuperar los favoritos existentes
+            String jsonFavorites = sharedPreferences.getString("favorites", "{}");
+            Map<String, String> favoriteCharacters = new Gson().fromJson(jsonFavorites, new TypeToken<Map<String, String>>() {}.getType());
+
+            if (favoriteCharacters == null) {
+                favoriteCharacters = new HashMap<>();
+            }
+
+            // Agregar o quitar de favoritos
+            if (favoriteCharacters.containsKey(characterId)) {
+                favoriteCharacters.remove(characterId);
+                favoriteIcon.setImageResource(R.drawable.baseline_favorite_border_24);
+                Log.d("Favorites", "Personaje removido de favoritos: " + characterNameText);
+            } else {
+                favoriteCharacters.put(characterId, imageName); // Guardamos solo el ID y la imagen
+                favoriteIcon.setImageResource(R.drawable.baseline_favorite_24);
+                Log.d("Favorites", "Personaje agregado a favoritos: " + characterNameText);
+            }
+
+            // Guardar cambios en SharedPreferences
+            String updatedFavorites = new Gson().toJson(favoriteCharacters);
+            sharedPreferences.edit().putString("favorites", updatedFavorites).apply();
+
+            // Actualizar el icono de favorito
+            updateFavoriteIcon(characterId);
+
+        } catch (Exception e) {
+            Log.e("FavoritesError", "Error al manejar los favoritos: " + e.getMessage());
+            Toast.makeText(this, "Hubo un error al agregar a favoritos", Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void loadCharacterDetails(String characterId) {
@@ -86,24 +142,61 @@ public class CharacterDetailActivity extends AppCompatActivity {
                     if (transformations != null && !transformations.isEmpty()) {
                         transformationAdapter = new TransformationAdapter(CharacterDetailActivity.this, transformations);
                         recyclerViewTransformations.setAdapter(transformationAdapter);
+                        Log.d("RecyclerView", "Transformaciones cargadas: " + transformations.size());
+                    } else {
+                        Log.d("RecyclerView", "No se encontraron transformaciones");
                     }
 
+
+                    favoriteIcon.setEnabled(true);
+                    updateFavoriteIcon(characterName.getText().toString());
                     setCharacterAbilities(character.getName());
                 } else {
                     characterName.setText("Error al obtener datos");
                     Log.e("API_ERROR", "Respuesta no exitosa: " + response.code());
                     Toast.makeText(CharacterDetailActivity.this, "Error en la respuesta del servidor", Toast.LENGTH_SHORT).show();
                 }
+
             }
 
             @Override
             public void onFailure(Call<Character> call, Throwable t) {
                 characterName.setText("Error al cargar los datos");
-                Log.e("API_ERROR", "Error en la conexión: " + t.getMessage());
-                Toast.makeText(CharacterDetailActivity.this, "Error de conexión", Toast.LENGTH_SHORT).show();
+                Log.e("API_ERROR", "Error en la conexion: " + t.getMessage());
+                Toast.makeText(CharacterDetailActivity.this, "Error de conexion", Toast.LENGTH_SHORT).show();
             }
         });
     }
+
+    private void updateFavoriteIcon(String characterId) {
+        // Recuperar los favoritos existentes
+        String jsonFavorites = sharedPreferences.getString("favorites", "{}");
+        Map<String, String> favoriteCharacters = new Gson().fromJson(jsonFavorites, new TypeToken<Map<String, String>>() {}.getType());
+
+        if (favoriteCharacters == null) {
+            favoriteCharacters = new HashMap<>();
+        }
+
+        // Comprobar si el personaje está en favoritos
+        if (favoriteCharacters.containsKey(characterId)) {
+            favoriteIcon.setImageResource(R.drawable.baseline_favorite_24);
+            Log.d("Favorites", "Personaje esta en favoritos: " + characterName.getText().toString());
+
+        } else {
+            favoriteIcon.setImageResource(R.drawable.baseline_favorite_border_24);
+            Log.d("Favorites", "Personaje no esta en favoritos: " + characterName.getText().toString());
+        }
+    }
+
+
+
+    public static void openCharacterDetail(Context context, String characterId) {
+        Intent intent = new Intent(context, CharacterDetailActivity.class);
+        intent.putExtra("CHARACTER_ID", characterId);
+        context.startActivity(intent);
+    }
+
+    // Aquí puedes agregar un método para establecer las transformaciones de los personajes, si es necesario.
     private void setCharacterAbilities(String characterName) {
         Map<String, List<String>> abilitiesMap = new HashMap<>();
 

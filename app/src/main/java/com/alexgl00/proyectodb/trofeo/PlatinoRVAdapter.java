@@ -39,15 +39,6 @@ public class PlatinoRVAdapter extends RecyclerView.Adapter<PlatinoRVAdapter.MyVi
 
         holder.platinoName.setText(platinoItems.get(position).getPlatinoName());
         holder.platinoDescription.setText(platinoItems.get(position).getPlatinoDescription());
-//        Platino_item item = platinoItems.get(position);
-//        holder.platinoName.setText(item.getPlatinoName());
-//        holder.platinoDescription.setText(item.getPlatinoDescription());
-//
-//        holder.itemView.setOnClickListener(v -> new MaterialAlertDialogBuilder(context)
-//                .setTitle(item.getPlatinoName())
-//                .setMessage(item.getPlatinoDescription())
-//                .setPositiveButton("OK", null)
-//                .show());
     }
 
     @Override

@@ -83,6 +83,8 @@
             android:name=".Personajes"
             android:exported="false">
         </activity>
+        
+        
         <activity
             android:name=".character.CharacterDetailActivity"
             android:exported="false">
@@ -96,6 +98,8 @@
             android:name=".news.News1"
             android:exported="false">
         </activity>
+
+
 
         <activity
             android:name=".news.News2"

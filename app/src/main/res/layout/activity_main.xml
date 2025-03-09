@@ -48,6 +48,7 @@
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/buttonNews"
+                android:fontFamily="@font/boogalooregular"
                 android:text="Acceder"
                 app:cornerRadius="0dp" />
         </LinearLayout>
@@ -71,6 +72,7 @@
                 android:layout_marginHorizontal="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="#33FFFFFF"
+                android:fontFamily="@font/boogalooregular"
                 android:drawableTop="@drawable/baseline_sports_esports_24"
                 android:drawablePadding="10dp"
                 android:gravity="center"
@@ -88,6 +90,7 @@
                 android:layout_marginHorizontal="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="#33FFFFFF"
+                android:fontFamily="@font/boogalooregular"
                 android:drawableTop="@drawable/baseline_layers_24"
                 android:drawablePadding="10dp"
                 android:gravity="center"
@@ -105,6 +108,7 @@
                 android:layout_marginHorizontal="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="#33FFFFFF"
+                android:fontFamily="@font/boogalooregular"
                 android:drawableTop="@drawable/baseline_person_outline_24"
                 android:drawablePadding="10dp"
                 android:gravity="center"
@@ -130,40 +134,41 @@
             <FrameLayout
                 android:id="@+id/frameLayout1"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="140dp"
                 android:layout_marginTop="50dp">
 
                 <ImageButton
                     android:id="@+id/Personajes"
-                    android:layout_width="350dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="400dp"
+                    android:layout_height="140dp"
                     android:layout_gravity="center"
                     android:background="@null"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/personajesdb1" />
 
                 <TextView
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#80000000"
                     android:gravity="center"
                     android:padding="5dp"
                     android:text="PERSONAJES"
+                    android:fontFamily="@font/boogalooregular"
                     android:textColor="#FFFFFF"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </FrameLayout>
 
             <FrameLayout
                 android:id="@+id/frameLayout2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginTop="20dp">
+                android:layout_height="140dp"
+                android:layout_marginTop="40dp">
 
                 <ImageButton
                     android:id="@+id/controles"
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="@null"
@@ -171,7 +176,7 @@
                     app:srcCompat="@drawable/controles1" />
 
                 <TextView
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#80000000"
@@ -179,19 +184,20 @@
                     android:padding="5dp"
                     android:text="CONTROLES"
                     android:textColor="#FFFFFF"
-                    android:textSize="18sp"
+                    android:fontFamily="@font/boogalooregular"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </FrameLayout>
 
             <FrameLayout
                 android:id="@+id/frameLayout3"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginTop="20dp">
+                android:layout_height="140dp"
+                android:layout_marginTop="40dp">
 
                 <ImageButton
                     android:id="@+id/historia"
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="@null"
@@ -199,27 +205,28 @@
                     app:srcCompat="@drawable/bolasdragon1" />
 
                 <TextView
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#80000000"
                     android:gravity="center"
                     android:padding="5dp"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="HISTORIA"
                     android:textColor="#FFFFFF"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </FrameLayout>
 
             <FrameLayout
                 android:id="@+id/frameLayout4"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_marginTop="20dp">
+                android:layout_height="140dp"
+                android:layout_marginTop="40dp">
 
                 <ImageButton
                     android:id="@+id/platino"
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="@null"
@@ -227,7 +234,7 @@
                     app:srcCompat="@drawable/platino" />
 
                 <TextView
-                    android:layout_width="350dp"
+                    android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:background="#80000000"
@@ -235,7 +242,8 @@
                     android:padding="5dp"
                     android:text="PLATINO"
                     android:textColor="#FFFFFF"
-                    android:textSize="18sp"
+                    android:fontFamily="@font/boogalooregular"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     />
             </FrameLayout>

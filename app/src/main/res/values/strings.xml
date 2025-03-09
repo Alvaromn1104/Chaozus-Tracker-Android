@@ -147,6 +147,11 @@
     <string name="ControlesO1">Ataques de golpe</string>
     <string name="ControlesOf2">Golpe Levantador/Gran Tajo</string>
     <string name="ControlesO2">Golpe Levantador</string>
+    <string name="ControlesO2_1">Gran Tajo</string>
+    <string name="ControlesO3">Combos de movimientos Rápidos</string>
+    <string name="ControlesO3_1">Asalto evanescente (corto y medio alcanze)</string>
+    <string name="ControlesO3_2">entrada Frenética</string>
+    <string name="ControlesO3_3">Explosión Meteórica</string>
 
     <!-- Fin de los strings de titulos de Controles -->
 
@@ -176,6 +181,14 @@
     <string name="ControlesM3_3">Si pulsas [R2/RT] + [✖/A] + [✖/A], podrás realizar una Acometida de Explosión Z. Es un movimiento muy veloz que te permite colocarte detrás de tu rival durante la Acometida Dragón. Consume más Ki que la Acometida Dragón, pero también dificulta que tu oponente se proteja.</string>
     <string name="ControlesM4_4">Pulsa [R2/RT] + [L1/LB] para subir rápidamente mientras emites tu Aura de Ki. En este movimiento, se consumirá tu indicador de Ki</string>
     <string name="ControlesM5_5">Pulsa [R2/RT] + [L2/LT] para bajar rápidamente mientras emites tu Aura de Ki. Este movimiento también consumirá tu indicador de Ki.</string>
+    <string name="ControlesOf_1">Los combos de cadena frenética se activan pulsando [☐/X] (hasta 4 veces como máximo) + [△/Y]. Cuanto más largo sea el combo, más daño infligirás a tu rival, al que golpearás con una cadena de combos.</string>
+    <string name="ControlesO1_1">Los ataques de golpe son un tipo de ataque acumulado que lanzará a tu oponente al alcanzarlo. Su potencia varía en función del tiempo que cargues el ataque. Al ejecutar un ataque de golpe, golpea en el momento adecuado.</string>
+    <string name="ControlesO1_2">Un Golpe Poderoso es más potente que un ataque de golpe normal y mandará más lejos a tu oponente. Mantén pulsado [☐/X] para ejecutar un ataque de golpe y suelta una vez que se haya cargado para ejecutar un Golpe Poderoso. Este movimiento hará retroceder a tu rival y le infligirá mucho daño. También puedes cargarlo no solo para mantener a distancia a tu oponente, sino para conectar Golpes Poderosos con otros ataques, como Persecución Dragón y el ataque evanescente, así que no olvides incluirlo en tu estrategia de combate</string>
+    <string name="ControlesO2_1_1">Pulsa [☐/X] ↑ + [△/Y] para mandar al rival volando por los aires.</string>
+    <string name="ControlesO2_1_2">Pulsa [☐/X] ↓ + [△/Y] dirigiendo tus ataques hacia abajo. Si lo ejecutas desde el suelo, este movimiento hará que tu rival caiga.</string>
+    <string name="ControlesO3_1_1">Pulsa [✖/A] + [☐/X] cerca de tu rival para aparecer detrás de él y poder atacarlo. Se puede ejecutar a corta y media distancia. Si lo usas a corta distancia, harás retroceder al rival y tendrás la oportunidad de seguir atacando.</string>
+    <string name="ControlesO3_1_2">Pulsa [✖/A] [☐/X] [☐/X] [☐/X] para ejecutar un ataque frenético desde un paso.</string>
+    <string name="ControlesO3_1_3">Pulsa [△/Y] + [☐/X] después de una Acometida de Explosión Z para continuar con un ataque que golpeará y derribará a tu rival.</string>
 
     <!-- Fin de los strings de controles -->
 

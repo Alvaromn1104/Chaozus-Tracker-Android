@@ -81,28 +81,50 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/characterName"
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:textSize="20sp"
-                        android:textColor="@color/white"
-                        android:text="Son Goku (Super)"
-                        android:shadowColor="@android:color/black"
-                        android:shadowRadius="1"
-                        android:shadowDx="5"
-                        android:shadowDy="5"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
                         >
 
-                    </TextView>
+                        <TextView
+                            android:id="@+id/characterName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            android:shadowColor="@android:color/black"
+                            android:shadowRadius="1"
+                            android:shadowDx="5"
+                            android:shadowDy="5"
+                            >
+
+                        </TextView>
+
+                        <ImageView
+                            android:id="@+id/favoriteIcon"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/baseline_favorite_border_24"
+                            android:layout_gravity="center"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:padding="5dp">
+
+                        </ImageView>
+
+                    </LinearLayout>
 
 
                     <ImageView
                         android:id="@+id/characterImage"
                         android:layout_width="match_parent"
                         android:layout_height="300dp"
-                        android:src="@drawable/personaje_goku"
+
                         >
 
                     </ImageView>
@@ -120,9 +142,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
-                        android:textSize="20sp"
+                        android:textSize="30sp"
                         android:textColor="@color/white"
                         android:text="HABILIDADES"
+                        android:fontFamily="@font/boogalooregular"
                         android:shadowColor="@android:color/black"
                         android:shadowRadius="1"
                         android:shadowDx="5"
@@ -131,8 +154,9 @@
                     </TextView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="4dp"
                         android:layout_margin="3dp"
@@ -155,8 +179,8 @@
                                 android:id="@+id/tv_habilidad1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Teletransportación"
                                 android:textSize="18sp"
+                                android:fontFamily="@font/boogalooregular"
                                 android:textColor="@color/text_character_detail"
                                 android:textStyle="bold"
                                 android:shadowColor="@android:color/black"
@@ -168,8 +192,9 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="4dp"
                         android:layout_margin="3dp"
@@ -192,9 +217,9 @@
                                 android:id="@+id/tv_habilidad2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="A tope"
                                 android:textSize="18sp"
                                 android:textColor="@color/text_character_detail"
+                                android:fontFamily="@font/boogalooregular"
                                 android:textStyle="bold"
                                 android:shadowColor="@android:color/black"
                                 android:shadowRadius="2"
@@ -205,8 +230,9 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="4dp"
                         android:layout_margin="3dp"
@@ -229,9 +255,9 @@
                                 android:id="@+id/tv_habilidad3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="SuperOndaVital"
                                 android:textSize="18sp"
                                 android:textColor="@color/text_character_detail"
+                                android:fontFamily="@font/boogalooregular"
                                 android:textStyle="bold"
                                 android:shadowColor="@android:color/black"
                                 android:shadowRadius="2"
@@ -242,8 +268,9 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="4dp"
                         android:layout_margin="3dp"
@@ -266,8 +293,8 @@
                                 android:id="@+id/tv_habilidad4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Explosión dragón"
                                 android:textSize="18sp"
+                                android:fontFamily="@font/boogalooregular"
                                 android:textColor="@color/text_character_detail"
                                 android:textStyle="bold"
                                 android:shadowColor="@android:color/black"
@@ -279,8 +306,9 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="330dp"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="4dp"
                         android:layout_margin="3dp"
@@ -303,8 +331,8 @@
                                 android:id="@+id/tv_habilidad5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Supergenkidama"
                                 android:textSize="18sp"
+                                android:fontFamily="@font/boogalooregular"
                                 android:textColor="@color/text_character_detail"
                                 android:textStyle="bold"
                                 android:shadowColor="@android:color/black"
@@ -319,8 +347,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
-                        android:textSize="20sp"
-                        android:text="TRANSFORMACIONES">
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/boogalooregular"
+                        android:text="TRANSFORMACIONES"
+                        android:shadowColor="@android:color/black"
+                        android:shadowRadius="1"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        >
 
                     </TextView>
 

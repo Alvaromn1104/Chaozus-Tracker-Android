@@ -76,12 +76,14 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/personaje_goku"
+                    android:tag="personaje_goku"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
                     android:text="Goku (SUPER)">
@@ -94,7 +96,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_wis">
+                    android:src="@drawable/personaje_whis"
+                    android:tag="personaje_wis">
 
                 </ImageView>
 
@@ -102,9 +105,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
-                    android:text="Wis">
+                    android:text="Whis">
 
                 </TextView>
 
@@ -114,7 +118,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_gohan">
+                    android:src="@drawable/personaje_gohan"
+                    android:tag="personaje_gohan">
 
                 </ImageView>
 
@@ -123,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
                     android:textAlignment="center"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:text="Gohan(SUPER)">
 
@@ -134,7 +140,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_brolys">
+                    android:src="@drawable/personaje_broly"
+                    android:tag="personaje_brolys">
 
                 </ImageView>
 
@@ -143,6 +150,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
                     android:textAlignment="center"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:text="Broly(SUPER)">
 
@@ -154,7 +162,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_frezzer">
+                    android:src="@drawable/personaje_freezer"
+                    android:tag="personaje_frezzer">
 
                 </ImageView>
 
@@ -162,6 +171,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:text="Freezer">
@@ -182,12 +192,14 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/personaje_vegeta"
+                    android:tag="personaje_vegeta"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
                     android:text="Vegeta (SUPER)">
@@ -200,7 +212,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_bills">
+                    android:src="@drawable/personaje_bills"
+                    android:tag="personaje_bills">
 
                 </ImageView>
 
@@ -208,6 +221,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
                     android:text="Bills">
@@ -220,7 +234,8 @@
                     android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/personaje_trunksz">
+                    android:src="@drawable/personaje_trunks"
+                    android:tag="personaje_trunksz">
 
                 </ImageView>
 
@@ -228,6 +243,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:text="Trunks(Z)">
@@ -241,12 +257,14 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/personaje_majinbuu"
+                    android:tag="personaje_majinbuu"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
                     android:text="Majin Buu">
@@ -260,12 +278,14 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/personaje_piccolo"
+                    android:tag="personaje_piccolo"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/boogalooregular"
                     android:textSize="20sp"
                     android:textAlignment="center"
                     android:text="Piccolo">

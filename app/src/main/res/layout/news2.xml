@@ -91,7 +91,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:layout_marginTop="20dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:text="@string/newsDlc1"
                             android:textStyle="bold"
                             android:textSize="17sp">
@@ -102,7 +105,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:layout_marginTop="20dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:text="@string/newsDlc1intro"
                             android:textStyle="italic"
                             android:textSize="17sp">
@@ -113,7 +119,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:layout_marginTop="20dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:text="@string/newsDlc1conten1"
                             android:textSize="17sp">
                         </TextView>
@@ -124,6 +133,9 @@
                             android:layout_gravity="center"
                             android:textColor="@color/black"
                             android:layout_marginTop="20dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/newsDlc1conten2"
                             android:textSize="17sp">
                         </TextView>

@@ -97,9 +97,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textColor="@color/black"
+                    android:fontFamily="@font/boogalooregular"
                     android:layout_marginTop="20dp"
                     android:text="@string/newsDlc"
-                    android:textSize="15sp">
+                    android:textSize="19sp">
                 </TextView>
 
                 <Button
@@ -107,10 +108,11 @@
                     android:layout_width="150dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="190dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:backgroundTint="@color/buttonNews"
                     android:text="Saber más"
                     android:textColor="@color/black"
+                    android:fontFamily="@font/boogalooregular"
                     app:strokeColor="@android:color/black"
                     app:cornerRadius="0dp">
 
@@ -161,9 +163,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="@string/newsDlc1"
                     android:textColor="@color/black"
-                    android:textSize="15sp">
+                    android:textSize="19sp">
 
                 </TextView>
 
@@ -174,6 +177,7 @@
                     android:layout_marginStart="190dp"
                     android:layout_marginTop="30dp"
                     android:backgroundTint="@color/buttonNews"
+                    android:fontFamily="@font/boogalooregular"
                     android:text="Saber más"
                     android:textColor="@color/black"
                     app:cornerRadius="0dp">

@@ -59,9 +59,12 @@
                 android:id="@+id/tittleControles1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
                 android:layout_gravity="center"
+                android:fontFamily="@font/boogalooregular"
                 android:text="@string/Controles"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:textColor="@color/white">
             </TextView>
 
@@ -106,6 +109,10 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:fontFamily="@font/boogalooregular"
                             android:textColor="@color/black"
                             android:text="@string/ControlesCont"
                             android:layout_marginBottom="12sp">
@@ -117,6 +124,7 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="RESUMEN"
                             android:textSize="25sp">
 
@@ -128,6 +136,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="3dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="I. Movimiento"
                             android:textSize="20sp">
 
@@ -138,6 +147,7 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="II. Ofensivos"
                             android:textSize="20sp">
 
@@ -147,6 +157,7 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="III. Defensivos"
                             android:textSize="20sp">
 
@@ -157,8 +168,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="12dp"
-                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textColor="#03A9F4"
                             android:text="I. Movimientos"
                             android:textSize="25sp">
 
@@ -168,6 +182,9 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:fontFamily="@font/boogalooregular"
                             android:textColor="@color/black"
                             android:text="@string/ControlesM"
                             android:textSize="12sp">
@@ -179,8 +196,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM1"
                             android:textSize="18sp">
 
@@ -190,6 +210,9 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:fontFamily="@font/boogalooregular"
                             android:layout_marginTop="9dp"
                             android:textColor="@color/black"
                             android:text="@string/ControlesM1_1"
@@ -202,8 +225,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM2"
                             android:textSize="18sp">
 
@@ -213,8 +239,11 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginTop="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM2_2"
                             android:textSize="12sp">
 
@@ -225,8 +254,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM3"
                             android:textSize="18sp">
 
@@ -236,7 +268,10 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginTop="9dp"
+                            android:fontFamily="@font/boogalooregular"
                             android:textColor="@color/black"
                             android:text="@string/ControlesM3_3"
                             android:textSize="12sp">
@@ -248,8 +283,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM4"
                             android:textSize="18sp">
 
@@ -259,8 +297,11 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginTop="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM4_4"
                             android:textSize="12sp">
 
@@ -271,8 +312,11 @@
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginBottom="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM5"
                             android:textSize="18sp">
 
@@ -283,8 +327,11 @@
                             android:layout_width="match_parent"
                             android:layout_gravity="center"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
                             android:layout_marginTop="9dp"
                             android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
                             android:text="@string/ControlesM5_5"
                             android:textSize="12sp">
 
@@ -299,6 +346,261 @@
                             >
 
                         </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="12dp"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textColor="#03A9F4"
+                            android:text="II. Ofensivos"
+                            android:textSize="25sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="#9C27B0"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesOf1"
+                            android:textSize="20sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesOf_1"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO1"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO1_1"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginTop="9dp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO1_2"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="#9C27B0"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesOf2"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO2"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO2_1_1"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO2_1"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO2_1_2"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="#9C27B0"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO3"
+                            android:textSize="20sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO3_1"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:text="@string/ControlesO3_1_1"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO3_2"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:textColor="@color/black"
+                            android:text="@string/ControlesO3_1_2"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="9dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/boogalooregular"
+                            android:text="@string/ControlesO3_2"
+                            android:textSize="18sp">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="15sp"
+                            android:layout_marginEnd="15sp"
+                            android:layout_marginBottom="15sp"
+                            android:text="@string/ControlesO3_1_3"
+                            android:fontFamily="@font/boogalooregular"
+                            android:textSize="12sp">
+
+                        </TextView>
 
                     </LinearLayout>
 
